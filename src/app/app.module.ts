@@ -4,11 +4,13 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
 
 import { AppComponent } from './app.component';
 import { ExemploUmComponent } from './exemplo-um/exemplo-um.component';
+import { ExemploDoisComponent } from './exemplo-dois/exemplo-dois.component';
 
 @NgModule({
   declarations: [
     AppComponent,
 	ExemploUmComponent,
+	ExemploDoisComponent,
   ],
   imports: [
     BrowserModule,
