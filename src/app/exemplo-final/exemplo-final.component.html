@@ -1,0 +1,24 @@
+
+
+<cdk-virtual-scroll-viewport itemSize="20" >
+	<table>
+		<thead>
+			<tr>
+				<th>UM</th>
+				<th>DOIS</th>
+				<th>TRES</th>
+				<th>QUATRO</th>
+				<th>CINCO</th>
+			<tr>
+		</thead>
+		<tbody>
+			<tr *cdkVirtualFor="let item of items">
+				<td>{{item.um}}</td>
+				<td>{{item.dois}}</td>
+				<td>{{item.tres}}</td>
+				<td>{{item.quatro}}</td>
+				<td>{{item.cinco}}</td>
+			</tr>
+		</tbody>
+	</table>
+</cdk-virtual-scroll-viewport>

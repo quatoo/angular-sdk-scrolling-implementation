@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ExemploUmComponent } from './exemplo-um/exemplo-um.component';
 import { ExemploDoisComponent } from './exemplo-dois/exemplo-dois.component';
 import { ExemploTresComponent } from './exemplo-tres/exemplo-tres.component';
+import { ExemploFinalComponent } from './exemplo-final/exemplo-final.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { ExemploTresComponent } from './exemplo-tres/exemplo-tres.component';
 	ExemploUmComponent,
 	ExemploDoisComponent,
 	ExemploTresComponent,
+	ExemploFinalComponent,
   ],
   imports: [
     BrowserModule,
